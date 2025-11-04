@@ -23,7 +23,6 @@ body {
 .menu {
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 233, 255);
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
@@ -48,7 +47,7 @@ body {
     font-size: 15px;
 }
 
-#sobre-mim {
+.sobre-mim {
     width: 100%;
     height: 500px;
     background-color: rgb(238, 209, 238);
@@ -103,4 +102,142 @@ menu {
 
 menu h3{
     color: rgb(214, 157, 214);
+}
+
+.projetos{
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(white, #e3a5e9);
+    border: 5px solid #e3a5e9;
+}
+
+.projetos h1{
+    color: rgb(133, 89, 133);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+    border: 5px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.068);
+}
+
+.card h2{
+    color: rgb(133, 89, 133);
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    font-weight: 550;
+    font-size: 14px;
+    color: rgb(53, 34, 53);
+    padding-left: 20px;
+}
+
+.card button{
+    width: 200px;
+    height: 50px;
+    background-color: #d86dd8;
+    border-radius: 5px;
+    border: 2px solid #a353a3;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8b448b;
+    transition: transform 0.5s ease;
+}
+
+.card button:hover {
+    transform: scale(1.1);
+}
+
+.footer{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footer p{
+    font-size: 15px;
+    color: #381c38;
+    font-weight: 400;
+}
+
+.contatos-social{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contatos-social li{
+    transition: transform 0.5s ease;
+}
+
+.contatos-social li:hover {
+    transform: scale(1.5);
+}
+
+.copy-right{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 209, 238);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copy-right h3{
+    font-size: 15px;
+    font-style: italic;
+    color: #d86dd8;
+    font-weight: normal;
+    color: rgb(102, 60, 105);
+}
+
+.menu2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(102, 60, 105);
 }
